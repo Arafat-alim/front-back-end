@@ -6,4 +6,4 @@ app.get("/api", (req, res) => {
   res.json({ users: ["user1", "user2", "user3"] });
 });
 
-app.listen(5000, () => console.log("Lsitening at port 5000"));
+app.listen(5000, () => console.log("Listening at port 5000"));
